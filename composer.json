@@ -1,0 +1,19 @@
+{
+    "name": "edgariukstis/composer-orm",
+    "type": "project",
+    "license": "BIT",
+    "authors": [
+        {
+            "name": "Edgariukstis",
+            "email": "edgaras.banaitis@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "files": [
+            "src/Product.php"
+        ]
+    }
+}
